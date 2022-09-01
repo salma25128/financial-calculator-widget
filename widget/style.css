@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#bre{
+    display: none;
+}
+
+#stri{
+    display: none;
+}
+
+#ame{
+    display: none;
+}
+
+.cal{
+    text-align: center;
+    color: #472a5b;
+    font-weight: bolder;
+    
+}
+/* inputs */
+.adjust{
+    width: 100vw;
+    margin: 2%;
+}
+.contain{
+    text-align: center;
+    
+    
+}
+
+.contain label{
+    color:#164383 ;
+    font-weight: bolder;
+    font-size: large;
+    cursor: text;
+    margin: 1%;
+}
+
+.contain input{
+    /* margin: 1.5%; */
+    /* padding: 0.2%; */
+    /* font: siz 20px; */
+    width: 20vw;
+}
+/* placeholder */
+:placeholder-shown{
+    text-align: center;
+    font-size: large;
+}
+.resultes{
+    text-align: center;
+}
+/* inactive button style */
+.btn{
+    background-color: #fff;
+    color: rgb(45, 43, 43);
+    width: 9vw;
+    height: 7vh;
+    margin: 0.3%;
+    font-size: 80%;
+    border: 1px solid #706f6f;
+    border-radius: 9px;
+    font-weight: bold;
+    box-shadow:1px 2px 2px 1px #312f2f;
+}
+/* avtive buttons */
+.active, .btn:focus{
+    width: 10vw;
+    height: 11vh;
+    font-style:oblique;
+    font-weight: bolder;
+    font-size: 100%;
+    background-color: #fff;
+    -webkit-text-stroke: 1.5px black;
+    -webkit-text-fill-color: white;
+    text-shadow: 1px 4px 4px #181818;
+    border: 2.5px solid #3f3e3e;
+    border-radius: 11px;   
+}
+
+
+/* rewards */
+.out{
+    width: 60vw;
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+    margin: 3%;
+    text-shadow: 1px 4px 4px #181818;
+   border: 2.5px solid #3f3e3e;
+    border-radius: 11px;   
+    box-shadow:1px 2px 2px 1px #312f2f;
+}
+    
+
+h4{
+    
+    text-indent: 2%;
+    color: #312f2f;
+    font-weight: 900;
+    text-justify: inter-word;
+    margin: 3%;
+   align-items: center;
+
+   
+     
+}
+::-webkit-meter-bar{
+    fill: #164383;
+    color: rgb(19, 154, 203);
+}
+#myBar{
+   
+    height: 24px;
+}
+
+.card{
+    align-items: flex-start;
+   
+    max-width: 10%;
+    text-align: left;
+    margin: 2%;
+}
+

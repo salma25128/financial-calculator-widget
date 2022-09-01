@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript ,calculator widget ">
+
+    <meta name="author" content="salma mohamed/ web developer">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- progress bar -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>financial calculator widget</title>
+</head>
+
+<body>
+
+    <div class="cal">
+        <h2>Calculate Your Rewards </h2>
+    </div>
+<!-- FORM -->
+    <form action="#" method="post">
+        <div class="contain">
+            <!-- user inputs -->
+            <!-- vendor -->
+            <div class="adjust">
+                <label for="vendor">Vendor/Bills</label>
+                <input type="text" id="vendor" required placeholder="Enter a Number">
+            </div>
+            <!-- media -->
+            <div class="adjust">
+                <label for="media">Media/AdSpend</label>
+                <input type="number" id="media" required placeholder="Enter a Number">
+            </div>
+            <!-- corp -->
+            <div class="adjust">
+                <label for="Corp">Corp.Spend</label>
+                <input type="text" id="corp" placeholder="Enter a Number" required>
+            </div>
+            <!-- team -->
+            <div class="adjust">
+                <label for="team">Team project</label>
+                <input type="number" id="team" required placeholder="Enter a Number" onkeydown="compareRewards()"
+                    oninput=" show()">
+            </div>
+        </div>
+        <!-- buttons -->
+        <div class="resultes">
+            <h3 class="cal">Compare Your Rewards</h3>
+            <input type="button" value="Brex" id="btn1" class="btn" onclick="showBrex()">
+            <input type="button" value="Stripe" id="btn2" class="btn" onclick="showStripe()">
+            <input type="button" value="Amex" id="btn3" class="btn" onclick="showAmex()">
+        </div>
+            <!-- resultes -->
+            <div class="out">
+            <!-- brex -->
+                <div id="bre">
+                    <h4>Brex Bussiness Card
+                        <meter id="myBar" class="w3-container w3-blue w3-padding w3-center">60%</meter>
+                        <span id="brex">0</span>$
+                    </h4>
+                </div>
+
+                <!-- stripe -->
+                <div id="stri">
+                    <h4>Stripe Bussiness Card
+                        <meter id="myBar2" class="w3-container w3-blue">60%</meter>$
+                        <span id="stripe">0</span>  
+                    </h4>
+                </div>
+                
+                <!-- amex -->
+                <div id="ame">
+                    <h4>Amex Bussiness Card
+                        <meter id="myBar3" class="w3-container w3-blue">60%</meter>$
+                        <span id="amex">0</span>
+                    </h4>
+                </div>
+             <!-- unlimited rewards -->
+                <div>
+                <h4>
+                    UNLIMITED REWARDS
+                    <meter id="myBar4" class="w3-container w3-blue">60%</meter>$
+
+                    <span id="unlimited">0</span>
+                </h4>
+
+             <!-- img card / life time rewards -->
+                <div >
+
+                    <h4> <img src="imges/card.png" alt="cardimg" class="card ">
+                        LIFE TIME REWARDS
+                        <meter id="myBar4" class="w3-container w3-blue">60%</meter>$
+                        <span id="life">0</span>
+                    </h4>
+                </div>
+            </div>
+            </div>
+            
+    </form>
+
+<!-- javascript file link -->
+    <script src="main1.js"></script>
+</body>
+
+</html>
