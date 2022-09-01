@@ -21,6 +21,9 @@ calculated and appeared automatically.
 ![ca2](https://user-images.githubusercontent.com/71194059/187962717-60be2f16-e8f3-440b-a61b-54bed5f9552b.png)
  
  Technologies :
+ 
  html
+ 
  css  
-javascript
+ 
+ javascript
